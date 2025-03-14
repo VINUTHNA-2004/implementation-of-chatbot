@@ -36,6 +36,16 @@ Bot: Hi there!
 User: How can I make a budget?
 Bot: A good budgeting strategy is the 50/30/20 rule...
 ```
+## Features
+
+* Intent-Based Responses: Uses a JSON file to define intents and responses.
+* NLP Processing: Utilizes tokenization and pattern matching for user input.
+* GUI Interface: Built with a modern and user-friendly interface.
+* Conversation History: Tracks and displays past messages.
+## Screenshot
+
+![c1](https://github.com/user-attachments/assets/48d8dcba-c1ea-4709-9773-6b57b50de950)
+
 ## Supported Intents
 The chatbot recognizes the following intents:
 
@@ -48,6 +58,9 @@ The chatbot recognizes the following intents:
 * Weather: Provides basic weather information.
 * Budgeting: Offers budgeting advice.
 * Credit Score: Explains credit scores and how to check them.
+
+## Customization
+You can add more intents in intents.json to improve chatbot responses.
 ## Notes
 * The chatbot currently works with predefined responses.
 * Streamlit can be used to build a graphical interface for a better user experience.
