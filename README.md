@@ -14,9 +14,13 @@ pip install nltk scikit-learn streamlit
 ```
 ## How It Works
 1.The chatbot is trained on predefined intents (greetings, farewells, budgeting, etc.).
+
 2.It uses TF-IDF vectorization to process and analyze user input.
+
 3.Logistic Regression is used for classifying user queries.
+
 4.Responses are selected randomly from predefined responses based on classification results.
+
 ## Running the Chatbot
 1.Ensure all dependencies are installed.
 2.Run the Python script to start the chatbot:
